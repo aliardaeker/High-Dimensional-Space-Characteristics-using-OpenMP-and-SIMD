@@ -1,0 +1,14 @@
+Note 1: Sequention execution on KNL was taking very long time so
+	I could not put it to the speedup graph. This should be due 
+	to individually weak cores of KNL. Speedup until 256 threads
+	is making sense for this reason. 
+
+Node 2: Execution with 100K points was taking very long time on my
+	desktop so I used 10K points for i5 speedup graph. Speedup until
+	4 threads is making sense with the 2 hardware threaded dual cores
+	of intel i5-5257.
+
+Node 3: The data to be used to draw 3D graph was generated with the
+	previous version of the code so results of the submitted code 
+	might not exactly match but would show the behavior of the 
+	high dimensional data better.
